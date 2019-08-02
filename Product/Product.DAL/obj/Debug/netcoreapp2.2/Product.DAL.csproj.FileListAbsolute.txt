@@ -1,0 +1,11 @@
+C:\Users\smart\Desktop\Base-Project\Product\Product.DAL\bin\Debug\netcoreapp2.2\Product.DAL.deps.json
+C:\Users\smart\Desktop\Base-Project\Product\Product.DAL\bin\Debug\netcoreapp2.2\Product.DAL.runtimeconfig.json
+C:\Users\smart\Desktop\Base-Project\Product\Product.DAL\bin\Debug\netcoreapp2.2\Product.DAL.runtimeconfig.dev.json
+C:\Users\smart\Desktop\Base-Project\Product\Product.DAL\bin\Debug\netcoreapp2.2\Product.DAL.dll
+C:\Users\smart\Desktop\Base-Project\Product\Product.DAL\bin\Debug\netcoreapp2.2\Product.DAL.pdb
+C:\Users\smart\Desktop\Base-Project\Product\Product.DAL\obj\Debug\netcoreapp2.2\Product.DAL.csprojAssemblyReference.cache
+C:\Users\smart\Desktop\Base-Project\Product\Product.DAL\obj\Debug\netcoreapp2.2\Product.DAL.csproj.CoreCompileInputs.cache
+C:\Users\smart\Desktop\Base-Project\Product\Product.DAL\obj\Debug\netcoreapp2.2\Product.DAL.AssemblyInfoInputs.cache
+C:\Users\smart\Desktop\Base-Project\Product\Product.DAL\obj\Debug\netcoreapp2.2\Product.DAL.AssemblyInfo.cs
+C:\Users\smart\Desktop\Base-Project\Product\Product.DAL\obj\Debug\netcoreapp2.2\Product.DAL.dll
+C:\Users\smart\Desktop\Base-Project\Product\Product.DAL\obj\Debug\netcoreapp2.2\Product.DAL.pdb

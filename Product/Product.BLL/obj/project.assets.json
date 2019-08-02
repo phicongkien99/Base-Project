@@ -8379,11 +8379,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\smart\\Desktop\\Product\\Product.BLL\\Product.BLL.csproj",
+      "projectUniqueName": "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.BLL\\Product.BLL.csproj",
       "projectName": "Product.BLL",
-      "projectPath": "C:\\Users\\smart\\Desktop\\Product\\Product.BLL\\Product.BLL.csproj",
+      "projectPath": "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.BLL\\Product.BLL.csproj",
       "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\smart\\Desktop\\Product\\Product.BLL\\obj\\",
+      "outputPath": "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8402,8 +8402,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\smart\\Desktop\\Product\\Product.DAL\\Product.DAL.csproj": {
-              "projectPath": "C:\\Users\\smart\\Desktop\\Product\\Product.DAL\\Product.DAL.csproj"
+            "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.DAL\\Product.DAL.csproj": {
+              "projectPath": "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.DAL\\Product.DAL.csproj"
             }
           }
         }

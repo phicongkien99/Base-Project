@@ -26,9 +26,4 @@
     <ProjectReference Include="..\Product.DAL\Product.DAL.csproj" />
   </ItemGroup>
 
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>

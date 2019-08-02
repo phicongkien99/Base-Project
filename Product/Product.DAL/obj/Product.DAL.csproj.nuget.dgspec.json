@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\smart\\Desktop\\Product\\Product.DAL\\Product.DAL.csproj": {}
+    "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.DAL\\Product.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\smart\\Desktop\\Product\\Product.DAL\\Product.DAL.csproj": {
+    "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.DAL\\Product.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smart\\Desktop\\Product\\Product.DAL\\Product.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.DAL\\Product.DAL.csproj",
         "projectName": "Product.DAL",
-        "projectPath": "C:\\Users\\smart\\Desktop\\Product\\Product.DAL\\Product.DAL.csproj",
+        "projectPath": "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.DAL\\Product.DAL.csproj",
         "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smart\\Desktop\\Product\\Product.DAL\\obj\\",
+        "outputPath": "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
