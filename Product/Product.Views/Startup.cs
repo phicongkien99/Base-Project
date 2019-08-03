@@ -14,9 +14,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Product.BLL;
 using Product.BLL.Repositories.Implements;
 using Product.BLL.Repositories.Interfaces;
+using Product.BLL.Services.Implements;
 using Product.BLL.Services.Interfaces;
 using Product.DAL;
 using Product.DAL.AutoMapper;
+using Product.Views.Options;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace Product.Views
 {
@@ -56,10 +59,14 @@ namespace Product.Views
             services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             services.AddTransient(typeof(IProductRepository), typeof(ProductRepository));
             services.AddTransient(typeof(IProductService), typeof(ProductService));
+            services.AddTransient(typeof(IProductTypeRepository), typeof(ProductTypeRepository));
+            services.AddTransient(typeof(IProductTypeService), typeof(ProductTypeService));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-
+            services.AddSwaggerGen(s => {
+                s.SwaggerDoc("v1", new Info {Title = "Product API" , Version = "v1"});
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -76,11 +83,25 @@ namespace Product.Views
                 app.UseHsts();
             }
 
+            var swaggerOptions = new Options.SwaggerOptions();
+            Configuration.GetSection(nameof(Options.SwaggerOptions)).Bind(swaggerOptions);
+
+            app.UseSwagger(option => { option.RouteTemplate = swaggerOptions.JsonRoute; });
+
+            app.UseSwaggerUI(option => {
+                option.SwaggerEndpoint(swaggerOptions.UIEndpoint, swaggerOptions.Description);
+            });
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
-            app.UseMvc();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
+            });
         }
     }
 }

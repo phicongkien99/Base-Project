@@ -1,0 +1,8 @@
+C:\Users\drago\Desktop\Base-Project\Product\Product.Common\bin\Debug\netcoreapp2.2\Product.Common.deps.json
+C:\Users\drago\Desktop\Base-Project\Product\Product.Common\bin\Debug\netcoreapp2.2\Product.Common.dll
+C:\Users\drago\Desktop\Base-Project\Product\Product.Common\bin\Debug\netcoreapp2.2\Product.Common.pdb
+C:\Users\drago\Desktop\Base-Project\Product\Product.Common\obj\Debug\netcoreapp2.2\Product.Common.csproj.CoreCompileInputs.cache
+C:\Users\drago\Desktop\Base-Project\Product\Product.Common\obj\Debug\netcoreapp2.2\Product.Common.AssemblyInfoInputs.cache
+C:\Users\drago\Desktop\Base-Project\Product\Product.Common\obj\Debug\netcoreapp2.2\Product.Common.AssemblyInfo.cs
+C:\Users\drago\Desktop\Base-Project\Product\Product.Common\obj\Debug\netcoreapp2.2\Product.Common.dll
+C:\Users\drago\Desktop\Base-Project\Product\Product.Common\obj\Debug\netcoreapp2.2\Product.Common.pdb

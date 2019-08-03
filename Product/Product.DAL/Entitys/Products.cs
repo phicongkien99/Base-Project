@@ -15,11 +15,12 @@ namespace Product.DAL.Entity
 
         }
 
-        public Products(int id, string name, int typeId, decimal price, Status status)
+        public Products(int id, string name, int typeId, string typeName ,decimal price, Status status)
         {
             Id = id;
             Name = name;
             TypeId = typeId;
+            TypeName = typeName;
             Price = price;
             Status = status;
         }
@@ -29,6 +30,9 @@ namespace Product.DAL.Entity
 
         [Required]
         public int TypeId { get; set; }
+
+        [StringLength(40, MinimumLength = 2)]
+        public string TypeName { get; set; }
 
         [Required]
         [StringLength(120, MinimumLength = 2)]

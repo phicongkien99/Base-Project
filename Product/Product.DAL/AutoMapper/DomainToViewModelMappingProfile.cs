@@ -12,6 +12,7 @@ namespace Product.DAL.AutoMapper
         public DomainToViewModelMappingProfile()
         {
             CreateMap<Products, ProductViewModel>();
+            CreateMap<ProductType, ProductTypeViewModel>();
         }
     }
 }

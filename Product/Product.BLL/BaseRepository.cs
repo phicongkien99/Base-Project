@@ -52,7 +52,7 @@ namespace Product.BLL
 
         public virtual T GetById(int id)
         {
-            if (id != null)
+            if (id > 0)
             {
                 return _context.Set<T>().Find(id);
             }

@@ -10,3 +10,15 @@ C:\Users\smart\Desktop\Base-Project\Product\Product.BLL\obj\Debug\netcoreapp2.2\
 C:\Users\smart\Desktop\Base-Project\Product\Product.BLL\obj\Debug\netcoreapp2.2\Product.BLL.csproj.CopyComplete
 C:\Users\smart\Desktop\Base-Project\Product\Product.BLL\obj\Debug\netcoreapp2.2\Product.BLL.dll
 C:\Users\smart\Desktop\Base-Project\Product\Product.BLL\obj\Debug\netcoreapp2.2\Product.BLL.pdb
+C:\Users\drago\Desktop\Base-Project\Product\Product.BLL\obj\Debug\netcoreapp2.2\Product.BLL.csprojAssemblyReference.cache
+C:\Users\drago\Desktop\Base-Project\Product\Product.BLL\obj\Debug\netcoreapp2.2\Product.BLL.csproj.CoreCompileInputs.cache
+C:\Users\drago\Desktop\Base-Project\Product\Product.BLL\obj\Debug\netcoreapp2.2\Product.BLL.AssemblyInfoInputs.cache
+C:\Users\drago\Desktop\Base-Project\Product\Product.BLL\obj\Debug\netcoreapp2.2\Product.BLL.AssemblyInfo.cs
+C:\Users\drago\Desktop\Base-Project\Product\Product.BLL\obj\Debug\netcoreapp2.2\Product.BLL.dll
+C:\Users\drago\Desktop\Base-Project\Product\Product.BLL\obj\Debug\netcoreapp2.2\Product.BLL.pdb
+C:\Users\drago\Desktop\Base-Project\Product\Product.BLL\bin\Debug\netcoreapp2.2\Product.BLL.deps.json
+C:\Users\drago\Desktop\Base-Project\Product\Product.BLL\bin\Debug\netcoreapp2.2\Product.BLL.dll
+C:\Users\drago\Desktop\Base-Project\Product\Product.BLL\bin\Debug\netcoreapp2.2\Product.BLL.pdb
+C:\Users\drago\Desktop\Base-Project\Product\Product.BLL\bin\Debug\netcoreapp2.2\Product.DAL.dll
+C:\Users\drago\Desktop\Base-Project\Product\Product.BLL\bin\Debug\netcoreapp2.2\Product.DAL.pdb
+C:\Users\drago\Desktop\Base-Project\Product\Product.BLL\obj\Debug\netcoreapp2.2\Product.BLL.csproj.CopyComplete

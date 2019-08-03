@@ -11,6 +11,6 @@ namespace Product.Views.Controllers
     [Produces("application/json")]
     public class BaseAPIController : Controller
     {
-
+        
     }
 }

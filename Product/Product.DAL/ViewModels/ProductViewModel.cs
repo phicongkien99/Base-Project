@@ -14,6 +14,9 @@ namespace Product.DAL.ViewModels
         [Required]
         public int TypeId { get; set; }
 
+        [StringLength(40, MinimumLength = 2)]
+        public string TypeName { get; set; }
+
         [Required]
         [StringLength(120, MinimumLength = 2)]
         public string Name { get; set; }

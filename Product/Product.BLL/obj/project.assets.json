@@ -4437,7 +4437,6 @@
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -4464,7 +4463,6 @@
       "path": "runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -4982,6 +4980,7 @@
       "path": "system.composition.convention/1.0.31",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Composition.Convention.dll",
@@ -5024,6 +5023,7 @@
       "path": "system.composition.typedparts/1.0.31",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Composition.TypedParts.dll",
@@ -5525,7 +5525,6 @@
       "path": "system.dynamic.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6467,7 +6466,6 @@
       "path": "system.reflection.emit.lightweight/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7983,7 +7981,6 @@
       "path": "system.threading.tasks.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
@@ -8000,6 +7997,7 @@
       "path": "system.threading.tasks.parallel/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8373,23 +8371,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\smart\\.nuget\\packages\\": {},
+    "C:\\Users\\drago\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.BLL\\Product.BLL.csproj",
+      "projectUniqueName": "C:\\Users\\drago\\Desktop\\Base-Project\\Product\\Product.BLL\\Product.BLL.csproj",
       "projectName": "Product.BLL",
-      "projectPath": "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.BLL\\Product.BLL.csproj",
-      "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.BLL\\obj\\",
+      "projectPath": "C:\\Users\\drago\\Desktop\\Base-Project\\Product\\Product.BLL\\Product.BLL.csproj",
+      "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\drago\\Desktop\\Base-Project\\Product\\Product.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\smart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8402,8 +8400,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.DAL\\Product.DAL.csproj": {
-              "projectPath": "C:\\Users\\smart\\Desktop\\Base-Project\\Product\\Product.DAL\\Product.DAL.csproj"
+            "C:\\Users\\drago\\Desktop\\Base-Project\\Product\\Product.DAL\\Product.DAL.csproj": {
+              "projectPath": "C:\\Users\\drago\\Desktop\\Base-Project\\Product\\Product.DAL\\Product.DAL.csproj"
             }
           }
         }

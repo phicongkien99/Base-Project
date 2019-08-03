@@ -49,6 +49,9 @@ namespace Product.DAL.Migrations
 
                     b.Property<int>("TypeId");
 
+                    b.Property<string>("TypeName")
+                        .HasMaxLength(40);
+
                     b.HasKey("Id");
 
                     b.HasIndex("TypeId");

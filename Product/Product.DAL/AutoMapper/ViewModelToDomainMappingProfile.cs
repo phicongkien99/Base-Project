@@ -11,8 +11,8 @@ namespace Product.DAL.AutoMapper
     {
         public ViewModelToDomainMappingProfile()
         {
-            CreateMap<ProductViewModel, Products>()
-                .ConstructUsing(p => new Products(p.Id, p.Name, p.TypeId, p.Price, p.Status));
+            CreateMap<ProductViewModel, Products>().ConstructUsing(p => new Products(p.Id, p.Name, p.TypeId, p.TypeName,p.Price, p.Status));
+            CreateMap<ProductTypeViewModel, ProductType>().ConstructUsing(t => new ProductType(t.Id, t.Name));
         }
     }
 }

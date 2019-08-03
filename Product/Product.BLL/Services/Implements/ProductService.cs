@@ -10,7 +10,7 @@ using System.Text;
 
 namespace Product.BLL.Services.Implements
 {
-    class ProductService : IProductService
+    public class ProductService : IProductService
     {
         private readonly IProductRepository _productRepository;
         private readonly IUnitOfWork _unitOfWork;
@@ -29,6 +29,12 @@ namespace Product.BLL.Services.Implements
             _productRepository.Add(model);
         }
 
+        public void Update(ProductViewModel products)
+        {
+            var model = _mapper.Map<ProductViewModel, Products>(products);
+            _productRepository.Edit(model);
+        }
+
         public void Delete(ProductViewModel products)
         {
             var model = _mapper.Map<ProductViewModel, Products>(products);
@@ -37,8 +43,8 @@ namespace Product.BLL.Services.Implements
 
         public IQueryable<ProductViewModel> GetAll()
         {
-            var model = _productRepository.GetAll();
-            return _mapper.ProjectTo<ProductViewModel>(model);
+            var listModel = _productRepository.GetAll();
+            return _mapper.ProjectTo<ProductViewModel>(listModel);
         }
 
         public ProductViewModel GetById(int id)
@@ -51,11 +57,6 @@ namespace Product.BLL.Services.Implements
         {
             _unitOfWork.Commit();
         }
-
-        public void Update(ProductViewModel products)
-        {
-            var model = _mapper.Map<ProductViewModel, Products>(products);
-            _productRepository.Edit(model);
-        }
+        
     }
 }
